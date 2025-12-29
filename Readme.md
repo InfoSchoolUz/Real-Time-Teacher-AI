@@ -108,3 +108,13 @@ It introduces a new category: **Live Classroom Intelligence**.
 
 We combine real classroom experience with advanced AI engineering.  
 **RealTime Teacher isn’t just software — it’s a new way to teach.**
+
+## 🔐 Environment Setup
+
+This project requires a Gemini API key to run.
+
+Create a `.env` file inside the `backend` folder and add the following:
+
+```env
+GEMINI_API_KEY=your_api_key_here
+MODEL_ID=gemini-3-flash-preview
